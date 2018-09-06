@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/poetry/.nvm/versions/node/v9.10.0/bin/node /usr/local/bin/yarn add react-transition-group --save
+
+PATH: 
+  /Users/poetry/.nvm/versions/node/v9.10.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "umi dev",
+      "build": "umi build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "babel-plugin-import": "^1.8.0",
+      "dva": "^2.4.0",
+      "umi": "^1.0.0-0",
+      "umi-plugin-dva": "^0.1.5"
+    },
+    "devDependencies": {
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EINVAL: invalid argument, mkdir '/Users/poetry/Desktop/umi-user-dashboard/node_modules/awesome-typescript-loader/node_modules/expand-brackets/node_modules'
